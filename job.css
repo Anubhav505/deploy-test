@@ -1,0 +1,37 @@
+.jobPage {
+  height: 100vh;
+  width: 100%;
+  transform: translateX(-100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  background-color: #111;
+  flex-shrink: 0;
+}
+
+#jobBack {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  right: 6%;
+  cursor: pointer;
+}
+
+.resume{
+    width: 100%;
+    padding: 0 25px;
+}
+
+.resume label{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#resume{
+    height: 30px;
+}

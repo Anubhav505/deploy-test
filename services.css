@@ -1,0 +1,44 @@
+.servicesPage {
+  width: 200%;
+  height: 100%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bigBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  border-radius: 15px;
+  height: 340px;
+  width: 650px;
+  background: linear-gradient(to right, #2c2c2c, #111);
+  padding: 0 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.box p{
+    margin: 20px 0 30px 0;
+}
+
+.box span {
+  margin: 0;
+  border-radius: 0 40px 40px 40px;
+  padding: 15px;
+  font-size: 50px;
+  background: linear-gradient(221.69deg, #50e1e4, #9a60ea 101.01%);
+  margin-bottom: 20px;
+}
+
+.servicesHeading {
+  font-family: "Gruppo", sans-serif;
+  color: #00ffff;
+}

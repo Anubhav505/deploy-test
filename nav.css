@@ -1,0 +1,113 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  height: 50px;
+}
+
+.brand {
+  font-family: "Gruppo", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  z-index: 9999999999999999999999999;
+}
+
+.hamburger {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  cursor: pointer;
+  z-index: 9999999999999999999999999;
+}
+
+.line {
+  width: 70%;
+  height: 4px;
+  background: linear-gradient(to right, #ffffff, #c0c0c0);
+  position: absolute;
+  left: 0;
+}
+
+.top {
+  top: 10px;
+  border-radius: 10px 10px 0 10px;
+}
+
+.bottom {
+  bottom: 12px;
+  border-radius: 10px 0 10px 10px;
+}
+
+.brandV {
+  position: relative;
+  right: 150px;
+}
+
+.v-left,
+.v-right {
+  width: 60px;
+  height: 8px;
+  background-color: #008000;
+  position: absolute;
+}
+
+.v-left {
+  transform: rotate(60deg); /* Initial "V" formation */
+  position: relative;
+  top: 40px;
+  left: 75px;
+  border-radius: 0 10px 10px 10px;
+}
+
+.v-right {
+  transform: rotate(115deg);
+  position: relative;
+  top: 58px;
+  left: 58px;
+  border-radius: 10px 10px 10px 0;
+  transform-origin: 100%;
+}
+
+.navslide {
+  height: 100vh;
+  width: 100%;
+  transform: translateY(100%);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  background: linear-gradient(to bottom, rgb(17, 17, 17), rgb(14, 26, 16));
+  backdrop-filter: blur(10px);
+  z-index: 100;
+}
+
+.navOptions{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.job {
+  display: flex;
+  justify-content: center;
+  transform: translateX(60%);
+  opacity: 0;
+  font-family: "Gruppo", sans-serif;
+  font-size: 80px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  transform: translateX(-60%);
+  opacity: 0;
+  font-family: "Gruppo", sans-serif;
+  font-size: 80px;
+}
+.job:hover, .contact:hover{
+    color: rgba(238, 255, 0, 0.71);
+    cursor: pointer;
+}

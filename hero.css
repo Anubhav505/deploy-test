@@ -1,0 +1,16 @@
+.hero {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.child {
+  width: 70%;
+  padding: 0 50px;
+}
+
+.heroHeading {
+  margin: 10px 0;
+}

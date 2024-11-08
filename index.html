@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VENDALYN: Your Digital Solutions Partner</title>
+
+  <!-- GOOGLE -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Kalnia+Glaze:wght@100..700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <!--  -->
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="nav.css" />
+  <link rel="stylesheet" href="hero.css" />
+  <link rel="stylesheet" href="services.css" />
+  <link rel="stylesheet" href="footer.css" />
+  <link rel="stylesheet" href="job.css" />
+  <link rel="stylesheet" href="contact.css" />
+
+  <!-- emailjs -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    (function () {
+      emailjs.init("PP9CETCdck7DNLx8Y");
+    })();
+  </script>
+</head>
+
+<body class="body">
+
+  <div class="main">
+    <div class="nav">
+      <div></div>
+      <div class="brand">
+        <span class="brandV">
+          <div class="v-left"></div>
+          <div class="v-right"></div>
+        </span>
+        ENDALYN
+      </div>
+      <div class="hamburger">
+        <div class="line top"></div>
+        <div class="line bottom"></div>
+      </div>
+    </div>
+    <div class="navslide">
+      <div class="navOptions">
+
+        <h1 class="job">JOB</h1>
+        <h1 class="contact">CONTACT</h1>
+      </div>
+      <div class="contactPage">
+        <div id="contactBack">
+          <span class="material-symbols-outlined">arrow_back_ios</span><span>
+            <p>BACK</p>
+          </span>
+        </div>
+        <h1>Get in Touch</h1>
+        <p>Let us know how we can help.</p>
+
+        <form id="contact-form" class="form">
+          <div>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+          </div>
+          <div>
+            <input type="number" id="number" name="number" placeholder="Phone Number" required>
+            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+          </div>
+
+          <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+          <button type="submit"><span>Send</span>&nbsp;<i class="ri-send-plane-line"></i></button>
+        </form>
+
+      </div>
+      <div class="jobPage">
+        <div id="jobBack">
+          <span>
+            <p>BACK</p>
+          </span><span class="material-symbols-outlined">arrow_forward_ios</span>
+        </div>
+        <h1>Join Our Team</h1>
+        <p>Discover Your Next Career Move with Us.</p>
+
+        <form id="job-form" class="form">
+          <div>
+            <input type="text" id="job-name" name="name" placeholder="Your Name" required>
+            <input type="email" id="job-email" name="email" placeholder="Your Email" required>
+          </div>
+          <div>
+            <input type="number" id="job-number" name="number" placeholder="Phone Number" required>
+          <input type="text" id="job-position" name="position" placeholder="Position Applying for" required>
+          </div>
+          <textarea id="job-message" name="message" rows="4" placeholder="Please describe your skills and how they relate to this role." required></textarea>
+          <button type="submit"><span>Send</span>&nbsp;<i class="ri-send-plane-line"></i></button>
+        </form>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="hero">
+        <div class="child">
+          <p class="heroParah"></p>
+          Custom Web Design Solutions Tailored to Your Needs.
+          </p>
+          <h1 class="heroHeading">
+            Elevate Your Online Presence with
+            <span class="v">VENDALYN</span>
+          </h1>
+          <p class="heroParah">
+            we create stunning, high-performing websites tailored to your
+            specific needs. Whether you’re starting fresh or refreshing an
+            existing site, our expert team delivers modern, user-friendly
+            designs that drive results and make your brand stand out.
+          </p>
+        </div>
+      </div>
+
+      <div class="servicesPage">
+        <h1 class="servicesHeading">OUR SERVICES</h1>
+        <div class="bigBox">
+          <div class="box">
+            <span class="material-symbols-outlined"> language </span>
+            <h1>WEB DEVELOPMENT</h1>
+            <p>
+              Bringing your vision to life with stunning, tailor-made websites
+              that captivate and convert.
+            </p>
+          </div>
+          <div class="box">
+            <span class="material-symbols-outlined"> design_services </span>
+            <h1>UX/UI design</h1>
+            <p>
+              Commission us to design intuitive and visually engaging
+              interfaces that put your website’s best features in the
+              spotlight and enhance user interaction.
+            </p>
+          </div>
+          <div class="box">
+            <span class="material-symbols-outlined">donut_large</span>
+            <h1>SEO OPTIMIZATION</h1>
+            <p>
+              Climbing the search rankings and boosting your visibility with
+              cutting-edge SEO strategies
+            </p>
+          </div>
+          <div class="box">
+            <span class="material-symbols-outlined"> build </span>
+            <h1>WEB MAINTENANCE & SUPPORT</h1>
+            <p>
+              We maintain and support your website, ensuring peak performance
+              and security at all times
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="footerA">
+          <p class="aboutUs">
+            At VENDALYN, we craft high-performing, custom websites that
+            amplify your brand and drive measurable results. Our expertise
+            spans web development, SEO optimization, and ongoing maintenance,
+            all tailored to meet your business goals. We focus on creating
+            seamless, engaging user experiences that make your website stand
+            out and keep visitors coming back. Committed to quality and
+            innovation, we turn your vision into a dynamic online presence
+            that fuels your success.
+          </p>
+          <p class="copyRight">
+            &#169; 2024 . All Rights Reserved by
+            <span style="color: #ff0000">VENDALYN</span>
+          </p>
+          <div class="socialLinks">
+            <i class="ri-facebook-line"></i>
+            <i class="ri-instagram-line"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div>
+      <div class="blur"></div>
+      <div class="blur2"></div>
+    </div>
+    <div class="cursor"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
